@@ -1,0 +1,163 @@
+:root{
+  /* --bg-dark-gray: #1F2937; */
+  --bg-dark-gray: #35363A;
+  /* --bg-dark-gray:#181818; */
+  --text-dark-white:#fff;
+  --text-dark-black:#000;
+  --bg-light-gray: #ffffff;
+  --text-light-white:rgba(22, 22, 22, 0.87);
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.load{
+  display: none;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.img-skills{
+  width: 100px;
+  align-self: center;
+  margin: auto;
+  }
+  hr {
+height: 2px;
+background-color: #65ECF7;
+}
+
+
+  /* section.theme-dark {
+    background-color: var(--bg-dark-gray) ;
+    color: var(--text-dark-white);
+  } */
+
+
+  /* modal header */
+  section .modal-header{
+    background-color: var(--bg-dark-gray) ;
+    color: var(--text-dark-white);
+  }
+  section .modal-body{
+    background-color: var(--bg-dark-gray) ;
+    color: var(--text-dark-white);
+  }
+  section .modal-footer{
+    background-color: var(--bg-dark-gray) ;
+    color: var(--text-dark-white);
+  }
+  .modal-footer {
+    background-color:  rgb(17 24 39 / 1) !important;
+
+  }
+
+  @media (prefers-color-scheme: dark) {
+    section {
+      background-color: var(--bg-dark-gray) ;
+      color: var(--text-dark-white);
+    }
+
+    section.theme-light{
+      background-color: var(--bg-light-gray);
+      color: var(--text-light-white);
+    }
+    #modal-header.theme-light{
+      background-color: var(--bg-light-gray);
+      color: var(--text-light-white);
+    }
+    #modal-header2.theme-light{
+      background-color: var(--bg-light-gray);
+      color: var(--text-light-white);
+    }
+    #modal-header3.theme-light{
+      background-color: var(--bg-light-gray);
+      color: var(--text-light-white);
+    }
+    #modal-body.theme-light{
+      background-color: var(--bg-light-gray);
+      color: var(--text-light-white);
+    }
+    #modal-body2.theme-light{
+      background-color: var(--bg-light-gray);
+      color: var(--text-light-white);
+    }
+    #modal-body3.theme-light{
+      background-color: var(--bg-light-gray);
+      color: var(--text-light-white);
+    }
+    #modal-footer.theme-light{
+      background-color: var(--bg-light-gray);
+      color: var(--text-light-white);
+    }
+    #modal-footer2.theme-light{
+      background-color: var(--bg-light-gray);
+      color: var(--text-light-white);
+    }
+    #modal-footer3.theme-light{
+      background-color: var(--bg-light-gray);
+      color: var(--text-light-white);
+    }
+    
+  }
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.switch {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20px;
+  /* background-color: #ddd; */
+}
+
+#switchImage {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.dark #switchImage {
+  transform: translateX(24px);
+}
+
+.moon-icon, .sun-icon {
+  color: white;
+  height: 18px;
+}

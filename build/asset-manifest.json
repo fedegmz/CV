@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/cv/build/static/css/main.2c5a0aa3.css",
+    "main.js": "/cv/build/static/js/main.9c06db7a.js",
+    "static/js/787.2dcca737.chunk.js": "/cv/build/static/js/787.2dcca737.chunk.js",
+    "static/media/tiendaOnline.png": "/cv/build/static/media/tiendaOnline.038fc0d033e19945625e.png",
+    "static/media/img1.png": "/cv/build/static/media/img1.9362614729b3017edde1.png",
+    "static/media/SendEmail.gif": "/cv/build/static/media/SendEmail.25e607159b52730cca92.gif",
+    "static/media/img3.jpeg": "/cv/build/static/media/img3.814bcf064baf012fa9ca.jpeg",
+    "static/media/css.png": "/cv/build/static/media/css.b1dc9eeb13b9837cea03.png",
+    "static/media/farmacia.png": "/cv/build/static/media/farmacia.6966b0e5c7f0fcca49c8.png",
+    "static/media/php.png": "/cv/build/static/media/php.aea46e63b75406f4be0d.png",
+    "static/media/img2.jpg": "/cv/build/static/media/img2.087dd4351cf4748cf773.jpg",
+    "static/media/nyan-cat.gif": "/cv/build/static/media/nyan-cat.5d62e940e9dec584a8b1.gif",
+    "static/media/html52.png": "/cv/build/static/media/html52.c7142895f204d7aa8ef8.png",
+    "static/media/trees.png": "/cv/build/static/media/trees.de38bab5c44bdbf7813b.png",
+    "service-worker.js": "/cv/build/service-worker.js",
+    "static/media/jquery.png": "/cv/build/static/media/jquery.595ec06df85a4a8260ba.png",
+    "static/media/bootstrap.png": "/cv/build/static/media/bootstrap.e1d2b2678912e41fd4af.png",
+    "static/media/api.jpeg": "/cv/build/static/media/api.9f83d6a11f628932d72b.jpeg",
+    "static/media/experienecia.jpg": "/cv/build/static/media/experienecia.96dcfc50ba0f375108a6.jpg",
+    "static/media/git.png": "/cv/build/static/media/git.183b5be992dc9cf28b22.png",
+    "static/media/sass.png": "/cv/build/static/media/sass.5c498ce7f6a8d2c8579c.png",
+    "static/media/arrow.png": "/cv/build/static/media/arrow.ac64ec62079ad5b54c73.png",
+    "static/media/coppel.jpg": "/cv/build/static/media/coppel.9b93acc1008b24ac3e9f.jpg",
+    "static/media/js.png": "/cv/build/static/media/js.266bd9fb2663dcc057b4.png",
+    "static/media/github.svg": "/cv/build/static/media/github.7894bcfab1ab247b6ad725fd8f5223ac.svg",
+    "static/media/portafolio.svg": "/cv/build/static/media/portafolio.8f7e717df858c33b6926a5fa38589f98.svg",
+    "static/media/linkedin.svg": "/cv/build/static/media/linkedin.7defd339fd92d3e5fa034b24a5f10ed6.svg",
+    "static/media/instagram.svg": "/cv/build/static/media/instagram.02967a62beee6b2a4d092b3c532b3358.svg",
+    "static/media/whatsapp.svg": "/cv/build/static/media/whatsapp.42f2f941e06ebe4db53110ea64f4b3cc.svg",
+    "static/media/facebook.svg": "/cv/build/static/media/facebook.3f7115f963a2116bc713046cff9363ce.svg",
+    "index.html": "/cv/build/index.html",
+    "main.2c5a0aa3.css.map": "/cv/build/static/css/main.2c5a0aa3.css.map",
+    "main.9c06db7a.js.map": "/cv/build/static/js/main.9c06db7a.js.map",
+    "787.2dcca737.chunk.js.map": "/cv/build/static/js/787.2dcca737.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c5a0aa3.css",
+    "static/js/main.9c06db7a.js"
+  ]
+}
