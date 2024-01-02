@@ -1,0 +1,25 @@
+{
+  "short_name": "Fededjpg",
+  "name": "Welcome to the portfolio Fededjpg",
+  "icons": [
+    {
+      "src": "maletin.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "maletin192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "maletin512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#1F2937"
+}
