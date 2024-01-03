@@ -20,6 +20,8 @@ import imgHt from "../assets/img/experienecia.jpg";
 import imgCpa from "../assets/img/cpa.jpg";
 import imgCopple from "../assets/img/coppel.jpg";
 import imgApi from "../assets/img/api.jpeg";
+import imgCitas from "../assets/img/citas.png";
+import imgFkAPI from "../assets/img/fakeapi.png";
 import React2, { useState } from 'react';
 import MyVerticallyCenteredModal from './ModalCenter';
 import MyVerticallyCenteredModal2 from './ModalCenter';
@@ -219,62 +221,88 @@ class SectionComponent extends Component {
           id="portafolio"
           className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4"
         >
-      
       <img
-            onClick={() => this.handleImageClick('Smapa', `<a href="https://github.com/fededjpg/Smapa" target="_blank" rel="noreferrer">
-                    <img src="${img}" alt="this is project smapa" />
-                  </a>
-                  <div>
-                    <p>
-                      This web sitie is the social service for Sistema Municipal
-                      de Agua Potable y Alcantarillado (Smapa) specifically for
-                      manage the team saneamiento
-                    </p>
-                    <p>
-                      It was developed using technologies html5, css3,
-                      javascript, jquery, bootstrap, php, mysql.
-                    </p>
-                    <p>
-                      <a href="https://github.com/fededjpg/Smapa" target="_blank" rel="noreferrer">
-                        Go to repository
-                      </a>
-                    </p>
-                  </div>`)}
-            className="w-full h-80 bg-cover bg-center cursor-pointer"
-            src={img}
-            alt=""
-          />
+          onClick={() => this.handleImageClick('Smapa', `<a href="https://github.com/fededjpg/Smapa" target="_blank" rel="noreferrer">
+            <img src="${img}" alt="Este es el proyecto Smapa" />
+            </a>
+            <div>
+              <p>
+                Este sitio web fue el proyecto realizado en mi servicio social para el Sistema Municipal de Agua Potable y Alcantarillado (Smapa), específicamente para gestionar el equipo de saneamiento.
+              </p>
+              <p>
+                Fue desarrollado utilizando las tecnologías HTML5, CSS3, JavaScript, jQuery, Bootstrap, PHP y MySQL.
+              </p>
+              <p>
+                <a href="https://github.com/fededjpg/Smapa" target="_blank" rel="noreferrer">
+                  Ir al repositorio
+                </a>
+              </p>
+            </div>`
+          )}
+          className="w-full h-80 bg-cover bg-center cursor-pointer"
+          src={img}
+          alt=""
+      />
+
 
       <img
-        onClick={() => this.handleImageClick('Tienda en linea', `<a href="https://github.com/fededjpg/Tienda-Online" target="_blank" rel="noreferrer">
-        <img src=${imgTiendaOnline} alt="" />
-      </a>
-      <div>
-        <p>this project was created thanks to following a tutorial on udemy </p>
-        <p>This web site is a online store, it was developed using technologies html5, css3, javascript, jquery, bootstrap, php, mysql.</p>\
-        <p><a href="https://github.com/fededjpg/Tienda-Online" target="_blank" rel="noreferrer">Go to repository</a></p>
-      </div>`)}
-        className="w-full h-80 bg-cover bg-center cursor-pointer"
-        src={imgTiendaOnline}
-        alt=""
+          onClick={() => this.handleImageClick('Tienda en línea', `<a href="https://github.com/fededjpg/Tienda-Online" target="_blank" rel="noreferrer">
+          <img src=${imgTiendaOnline} alt="Tienda en línea" />
+            </a>
+            <div>
+              <p>Este proyecto fue creado gracias a un tutorial en Udemy, donde adquirí múltiples habilidades para desarrollar un sistema como este.</p>
+              <p>Desarrollado utilizando tecnologías HTML5, CSS3, JavaScript, jQuery, Bootstrap, PHP y MySQL.</p>
+              <p><a href="https://github.com/fededjpg/Tienda-Online" target="_blank" rel="noreferrer">Ir al repositorio</a></p>
+            </div>`
+          )}
+          className="w-full h-80 bg-cover bg-center cursor-pointer"
+          src={imgTiendaOnline}
+          alt=""
       />
 
       <img
-        onClick={() => this.handleImageClick('Control de inventario', `<a href="https://github.com/fededjpg/Farmacia" target="_blank" rel="noreferrer">
-        <img src=${imgFarmacia} alt="this proyect inventory control" />
-      </a>
-      <div>
-        <p>The project of the inventory of a pharmacy was one of the projects that I sold</p>
-        <p>
-          This project is a inventory control for a pharmacy, it was developed using technologies html5, css3, javascript, jquery, bootstrap, php, mysql.
-        </p>
-        <p><a href="https://github.com/fededjpg/Farmacia" target="_blank" rel="noreferrer">Go to repository</a></p>
-      </div>`)}
-        className="w-full h-80 bg-cover bg-center cursor-pointer"
-        src={imgFarmacia}
-        alt=""
+          onClick={() => this.handleImageClick('Control de inventario', `<a href="https://github.com/fedegmz/Farmacia" target="_blank" rel="noreferrer">
+          <img src=${imgFarmacia} alt="proyecto control de inventario" />
+          </a>
+          <div>
+            <p>Este proyecto fue creado para llevar el control de inventario de una farmacia, donde enfrenté varios retos en el ámbito de las reglas de negocio</p>
+            <p>Este proyecto es un control de inventario para una farmacia, fue desarrollado utilizando tecnologías HTML5, CSS3, JavaScript, jQuery, Bootstrap, PHP y MySQL.</p>
+            <p><a href="https://github.com/fedegmz/Farmacia" target="_blank" rel="noreferrer">Ir al repositorio</a></p>
+          </div>`
+        )}
+          className="w-full h-80 bg-cover bg-center cursor-pointer"
+          src={imgFarmacia}
+          alt=""
       />
 
+      <img
+          onClick={() => this.handleImageClick('Creación de citas', `<a href="https://github.com/fedegmz/crearCitas" target="_blank" rel="noreferrer">
+          <img src=${imgCitas} alt="img creación de citas" />
+          </a>
+          <div>
+            <p>Este proyecto fue creado para realizar citas para ser implemenatado en lugar donde se requiera dicha funciopnalidad. Se implemento ciertas validaciones.</p>
+            <p>Desarrollado utilizando tecnologías HTML5, CSS3, JavaScript, Go y MySQL.</p>
+            <p><a href="https://github.com/fedegmz/crearCitas" target="_blank" rel="noreferrer">Ir al repositorio</a></p>
+          </div>`
+        )}
+          className="w-full h-80 bg-cover bg-center cursor-pointer"
+          src={imgCitas}
+          alt=""
+      />
+      <img
+          onClick={() => this.handleImageClick('FakeApi', `<a href="https://github.com/fedegmz/fakeapi" target="_blank" rel="noreferrer">
+          <img src=${imgFkAPI} alt="Fake Api" />
+          </a>
+          <div>
+            <p>Este proyecto fue inspirado en la platzi fake api, con la finalidad de aplicar mis conocimientos, en los apartados de creación de api, creando asi sus respectivos endpoint, relaciones tanto a nivel tabla, como a nivel modelo, creación de presentación para el consumo y respuesta del servicio.</p>
+            <p>Desarrollado utilizando las tecnologías como Laravel (Back) y Vue (Front)</p>
+            <p><a href="https://github.com/fedegmz/fakeapi" target="_blank" rel="noreferrer">Ir al repositorio</a></p>
+          </div>`
+        )}
+          className="w-full h-80 bg-cover bg-center cursor-pointer"
+          src={imgFkAPI}
+          alt=""
+      />
 
 
           <MyVerticallyCenteredModal
@@ -365,19 +393,19 @@ class SectionComponent extends Component {
             <form onSubmit={this.sendEmail} className="dataEmail grid sm:grid-cols-1 md:grid-cols-2">
               <div>
                 <label className="block uppercase tracking-wide text-xs font-bold mb-2" htmlFor="name">Nombre</label>
-                <input className="w-11/12 border border-gray-200 rounded py-3 px-4 mb-3 name text-gray-600" type="text" name="name" required placeholder="your name" />
+                <input className="w-11/12 border border-gray-200 rounded py-3 px-4 mb-3 name text-gray-600" type="text" name="name" required placeholder="Escribe tu nombre" />
               </div>
               <div>
                 <label className="block uppercase tracking-wide text-xs font-bold mb-2" htmlFor="email">Email</label>
-                <input className="w-11/12 border border-gray-200 rounded py-3 px-4 mb-3 email text-gray-600" type="email" name="email" required placeholder="your email" />
+                <input className="w-11/12 border border-gray-200 rounded py-3 px-4 mb-3 email text-gray-600" type="email" name="email" required placeholder="Escribe tu email" />
               </div>
               <div className="col-span-2">
-                <label className="block uppercase tracking-wide text-xs font-bold mb-2" htmlFor="phone">Telefono</label>
-                <input className="w-9/12 border border-gray-200 rounded py-3 px-4 mb-3 phone text-gray-600" pattern="^\d+$" onKeyPress={(e) => { if (e.target.value.length === 10) e.preventDefault(); }} type="phone" name="phone" required placeholder="your number" />
+                <label className="block uppercase tracking-wide text-xs font-bold mb-2" htmlFor="phone">Teléfono</label>
+                <input className="w-9/12 border border-gray-200 rounded py-3 px-4 mb-3 phone text-gray-600" pattern="^\d+$" onKeyPress={(e) => { if (e.target.value.length === 10) e.preventDefault(); }} type="phone" name="phone" required placeholder="Escribe tu número" />
               </div>
               <div className="col-span-2">
                 <label className="block uppercase tracking-wide text-xs font-bold mb-2" htmlFor="message">Mensaje </label>
-                <textarea className="w-11/12 border border-gray-200 rounded py-3 px-4 mb-3 message text-gray-600" name="message" rows="5" cols="10" placeholder="your message" required></textarea>
+                <textarea className="w-11/12 border border-gray-200 rounded py-3 px-4 mb-3 message text-gray-600" name="message" rows="5" cols="10" placeholder="Escribe tu mensage" required></textarea>
               </div>
               {/* <div className="load">
                 <p>Los datos se enviaron correctamente</p>

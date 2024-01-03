@@ -175,6 +175,11 @@ class HeaderComponent extends Component {
                   >
                     Contacto
                   </a>
+                  <a
+                    href="https://github.com/fedegmz/uploadFiles/files/13815941/CV.pdf" target="_blank" rel="noreferrer"
+                    className="experience text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >CV
+                  </a>
                   {/* <botton onClick={this.changeTheme} className="btn btn-primary mt-4">Cambiar tema</botton> */}
 
                 </div>
@@ -212,25 +217,30 @@ class HeaderComponent extends Component {
                 className="portafolio text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 Portafolio
-            </a>
+              </a>
+                <a
+                  href="#skills"
+                  className="skills text-gray-300 hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Habilidades
+              </a>
+                <a
+                  href="#experience"
+                  className="experience text-gray-300 hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                    Experiencia
+              </a>
               <a
-                href="#skills"
-                className="skills text-gray-300 hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                href="#contact"
+                className="experience text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
-                Habilidades
-            </a>
+                Contacto
+              </a>
+                  
               <a
-                href="#experience"
-                className="experience text-gray-300 hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              >
-                  Experiencia
-            </a>
-                 <a
-                    href="#contact"
-                    className="experience text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Contacto
-                  </a>
+                href="https://github.com/fedegmz/uploadFiles/files/13815922/CV.pdf"  target="_blank" rel="noreferrer"
+                className="experience text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              >CV</a>
             </div>
             </div>
             :null

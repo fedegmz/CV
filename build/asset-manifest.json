@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CV/static/css/main.2c5a0aa3.css",
-    "main.js": "/CV/static/js/main.39799c39.js",
-    "static/js/787.4f57ac2b.chunk.js": "/CV/static/js/787.4f57ac2b.chunk.js",
+    "main.js": "/CV/static/js/main.45e43f40.js",
+    "static/js/787.f60e26fc.chunk.js": "/CV/static/js/787.f60e26fc.chunk.js",
     "static/media/tiendaOnline.png": "/CV/static/media/tiendaOnline.038fc0d033e19945625e.png",
     "static/media/img1.png": "/CV/static/media/img1.9362614729b3017edde1.png",
     "static/media/SendEmail.gif": "/CV/static/media/SendEmail.25e607159b52730cca92.gif",
@@ -31,11 +31,11 @@
     "static/media/facebook.svg": "/CV/static/media/facebook.3f7115f963a2116bc713046cff9363ce.svg",
     "index.html": "/CV/index.html",
     "main.2c5a0aa3.css.map": "/CV/static/css/main.2c5a0aa3.css.map",
-    "main.39799c39.js.map": "/CV/static/js/main.39799c39.js.map",
-    "787.4f57ac2b.chunk.js.map": "/CV/static/js/787.4f57ac2b.chunk.js.map"
+    "main.45e43f40.js.map": "/CV/static/js/main.45e43f40.js.map",
+    "787.f60e26fc.chunk.js.map": "/CV/static/js/787.f60e26fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c5a0aa3.css",
-    "static/js/main.39799c39.js"
+    "static/js/main.45e43f40.js"
   ]
 }
